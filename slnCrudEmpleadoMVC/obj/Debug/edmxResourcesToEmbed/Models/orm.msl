@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bd_AspNETCrudModelStoreContainer" CdmEntityContainer="bd_AspNETCrudEntities">
+    <EntitySetMapping Name="Empleado">
+      <EntityTypeMapping TypeName="bd_AspNETCrudModel.Empleado">
+        <MappingFragment StoreEntitySet="Empleado">
+          <ScalarProperty Name="cod_emp" ColumnName="cod_emp" />
+          <ScalarProperty Name="name_emp" ColumnName="name_emp" />
+          <ScalarProperty Name="last_name_emp" ColumnName="last_name_emp" />
+          <ScalarProperty Name="user_emp" ColumnName="user_emp" />
+          <ScalarProperty Name="pass_emp" ColumnName="pass_emp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
